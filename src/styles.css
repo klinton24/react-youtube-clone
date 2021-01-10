@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #141414;
+}
+
+.App {
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  background-color: #141414;
+}
+
+.header {
+  color: white;
+  font-family: Pacifico;
+  font-weight: 100;
+}
+
+.you {
+  color: red;
+  font-family: Roboto;
+  font-weight: 800;
+}
+
+.u-tube {
+  font-family: Roboto;
+  font-weight: 800;
+}
+
+.searchBar {
+  background-color: #d3d3d3 !important;
+}
+
+.videoItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  color: white !important;
+  background-color: #141414 !important;
+}
+
+.video-img {
+  margin-right: 20px;
+}
+
+.mainVideo {
+  margin: 15px;
+  background-color: #141414;
+}
+
+.mainVideoDescription {
+  color: white;
+}
+
+@media only screen and (max-width: 770px) {
+  .container {
+    margin: 0 10%;
+  }
+}
